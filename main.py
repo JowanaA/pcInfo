@@ -51,5 +51,5 @@ class pcInformation():
 
 
 
-pc_info = outputPcInformation()
+pc_info = pcInformation()
 pc_info.print_info()
