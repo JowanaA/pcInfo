@@ -4,7 +4,7 @@ import psutil
 import GPUtil
 
 
-class outputPcInformation():
+class pcInformation():
     def __init__(self):
         self.hostname = socket.gethostname()
         self.system = platform.system()
